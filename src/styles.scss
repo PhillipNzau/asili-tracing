@@ -65,7 +65,7 @@ body {
   input,textarea {
     width: 100%;
     height: 5rem;
-    border: 1px solid #8B8B94;
+    border: 1px solid #fe5b47;
     border-radius: 1rem;
     padding: 0 2rem;
     background-color: transparent;
@@ -234,7 +234,7 @@ input, [type=file] {
 ////////////////////////
 // Selected option
 .auth-active {
-  background-color: lighten(#00A1A41A, 10%);
+  background-color: lighten(#fe5b47, 30%);
 }
 
 ///////////////////////
