@@ -171,7 +171,7 @@ body {
     p.pt__header__avatar-p {
       font-size: 1.8rem;
       font-weight: bold;
-
+      color: $color-primary;
     }
   }
 
@@ -273,7 +273,11 @@ input, [type=file] {
   font-weight: bold;
 
   &-success {
-    background-color: $color-tertiary-light;
+    // background-color: $color-tertiary-light;
+    background-color: $color-primary;
+    p {
+      color: white;
+    }
   }
 
   &-rejected {
@@ -536,13 +540,13 @@ input, [type=file] {
 }
 
 .custom-file-upload {
-  border: 1px dashed $color-tertiary;
+  border: 1px dashed #FE9E93;
   height: 5rem;
   border-radius: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $color-tertiary-light;
+  background-color: #FE9E93;
 
 
 }
